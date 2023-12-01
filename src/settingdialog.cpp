@@ -47,7 +47,7 @@ void SettingDialog::Save()
     {
         _trayIcon->setIcon(QIcon(":/new/icons/mono.png"));
     }else{
-        _trayIcon->setIcon(QIcon(":/new/icons/Clock.png"));
+        _trayIcon->setIcon(QIcon(":/new/icons/clock.png"));
     }
     this->deleteLater();
 }

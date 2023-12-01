@@ -529,7 +529,7 @@ void MainWindow::SendTrayMessage(QString title, QString message)
         {
             icon = QIcon(":/new/icons/mono.png");
         }else{
-            icon = QIcon(":/new/icons/Clock.png");
+            icon = QIcon(":/new/icons/clock.png");
         }
         trayIcon->showMessage(title,message,icon);
         FileIO::SaveSeenSolveText();
@@ -543,7 +543,7 @@ void MainWindow::ChangeIconToDefault()
     {
         this->trayIcon->setIcon(QIcon(":/new/icons/mono.png"));
     }else{
-        this->trayIcon->setIcon(QIcon(":/new/icons/Clock.png"));
+        this->trayIcon->setIcon(QIcon(":/new/icons/clock.png"));
     }
 }
 

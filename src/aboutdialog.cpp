@@ -9,7 +9,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
     ui->setupUi(this);
     //set Icon info
     QPixmap  image;
-    image.load(":/new/icons/Clock.png");
+    image.load(":/new/icons/clock.png");
     ui->lblIcon->setPixmap(image);
 
     QString InfoText;
